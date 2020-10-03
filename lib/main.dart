@@ -3,6 +3,8 @@ import 'package:PageView/Page1.dart';
 import 'package:PageView/Page2.dart';
 import 'package:PageView/Page3.dart';
 import 'package:PageView/Page4.dart';
+import 'package:PageView/Page5.dart';
+import 'package:PageView/Page6.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -36,7 +38,9 @@ class _MyHomePageState extends State<MyHomePage> {
     new Center(child:new Page1()),
     new Center(child:new Page2()),
     new Center(child:new Page3()),
-    new Center(child:new Page4())
+    new Center(child:new Page4()),
+    new Center(child:new Page5()),
+    new Center(child:new Page6())
   ];
   
   int _curr=0;
